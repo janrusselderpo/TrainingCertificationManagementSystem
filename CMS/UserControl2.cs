@@ -51,7 +51,6 @@ namespace CMS
             DataTable dt = new DataTable();
             SqlDataAdapter da = new SqlDataAdapter(cmd);
             da.Fill(dt);
-            dataGridView2.DataSource = dt;
             con.Close();
         }
 
